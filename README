@@ -1,0 +1,7 @@
+HtmlAndTextEmail
+===============
+
+Patches ActionMailer::Base#create! so that if you have an email template with text/html content type,
+it will automatically add an extra text/plain part (if you don't have a text/plain template).
+
+Copyright (c) 2009 Chirag Dave, released under the MIT license
